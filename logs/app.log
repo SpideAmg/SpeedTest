@@ -1,0 +1,382 @@
+2023-02-26 13:21:41.317 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\HP\Desktop\FORME\New-Test\src\test\resources\testng.xml
+
+2023-02-26 13:21:47.026 [main] INFO  base.base - BeforeMethod Execution
+2023-02-26 13:21:47.026 [main] INFO  base.base - Browser launched
+2023-02-26 13:21:50.319 [main] INFO  base.base - Navigated to application URL
+2023-02-26 13:21:50.459 [main] INFO  base.base - Windows got maximized
+2023-02-26 13:21:50.460 [main] INFO  base.base - BeforeMethod Executed
+2023-02-26 13:21:50.498 [main] INFO  base.listener - 
+============== Test 'log' started ==============
+
+2023-02-26 13:21:50.654 [main] INFO  toTest.logIn - Clicked on My Account dropdown
+2023-02-26 13:21:51.094 [main] INFO  toTest.logIn - Clicked on login option
+2023-02-26 13:21:51.214 [main] INFO  toTest.logIn - Email address entered successfully
+2023-02-26 13:21:51.353 [main] INFO  toTest.logIn - Password entered successfully
+2023-02-26 13:21:52.154 [main] INFO  toTest.logIn - Clicked on Login Button
+2023-02-26 13:21:52.241 [main] INFO  toTest.logIn - User logged in successfully
+2023-02-26 13:21:52.242 [main] INFO  toTest.logIn - Login Test got passed
+2023-02-26 13:21:52.258 [main] INFO  base.listener - 
+============== Test 'log' passed ==============
+
+2023-02-26 13:21:53.366 [main] INFO  base.base - Browser quit
+2023-02-26 13:21:54.349 [main] INFO  base.listener - 
+============== Test Suite 'logIn' finished ==============
+
+2023-02-26 13:21:56.565 [main] INFO  base.base - BeforeMethod Execution
+2023-02-26 13:21:56.567 [main] INFO  base.base - Browser launched
+2023-02-26 13:21:59.429 [main] INFO  base.base - Navigated to application URL
+2023-02-26 13:21:59.581 [main] INFO  base.base - Windows got maximized
+2023-02-26 13:21:59.582 [main] INFO  base.base - BeforeMethod Executed
+2023-02-26 13:21:59.594 [main] INFO  base.listener - 
+============== Test 'letsTest' started ==============
+
+2023-02-26 13:21:59.724 [main] INFO  toTest.testToTry - Clicked on My Account dropdown
+2023-02-26 13:22:00.191 [main] INFO  toTest.testToTry - Clicked on login option
+2023-02-26 13:22:00.292 [main] INFO  toTest.testToTry - Email address entered successfully
+2023-02-26 13:22:00.387 [main] INFO  toTest.testToTry - Password entered successfully
+2023-02-26 13:22:00.895 [main] INFO  toTest.testToTry - Clicked on Login Button
+2023-02-26 13:22:00.952 [main] ERROR base.listener - 
+============== Test 'letsTest' failed ==============
+
+java.lang.AssertionError: expected [Account Login] but found [My Account]
+	at org.testng.Assert.fail(Assert.java:110) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.Assert.failNotEquals(Assert.java:1577) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.Assert.assertEquals(Assert.java:131) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.Assert.assertEquals(Assert.java:655) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.Assert.assertEquals(Assert.java:665) ~[testng-7.7.1.jar:7.7.1]
+	at toTest.testToTry.letsTest(testToTry.java:30) ~[test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128) ~[testng-7.7.1.jar:7.7.1]
+	at java.util.ArrayList.forEach(ArrayList.java:1541) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:829) [testng-7.7.1.jar:7.7.1]
+	at org.testng.TestRunner.run(TestRunner.java:602) [testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437) [testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431) [testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391) [testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330) [testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.7.1.jar:7.7.1]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256) [testng-7.7.1.jar:7.7.1]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176) [testng-7.7.1.jar:7.7.1]
+	at org.testng.TestNG.runSuites(TestNG.java:1099) [testng-7.7.1.jar:7.7.1]
+	at org.testng.TestNG.run(TestNG.java:1067) [testng-7.7.1.jar:7.7.1]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109) [testng-rt.jar:?]
+2023-02-26 13:22:02.011 [main] INFO  base.base - Browser quit
+2023-02-26 13:22:02.106 [main] INFO  base.listener - 
+============== Test Suite 'testToTry' finished ==============
+
+2023-02-26 13:26:00.609 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\HP\Desktop\FORME\New-Test\src\test\resources\testng.xml
+
+2023-02-26 13:26:04.270 [main] INFO  base.base - BeforeMethod Execution
+2023-02-26 13:26:04.271 [main] INFO  base.base - Browser launched
+2023-02-26 13:26:07.024 [main] INFO  base.base - Navigated to application URL
+2023-02-26 13:26:07.164 [main] INFO  base.base - Windows got maximized
+2023-02-26 13:26:07.164 [main] INFO  base.base - BeforeMethod Executed
+2023-02-26 13:26:07.180 [main] INFO  base.listener - 
+============== Test 'log' started ==============
+
+2023-02-26 13:26:07.268 [main] INFO  toTest.logIn - Clicked on My Account dropdown
+2023-02-26 13:26:07.799 [main] INFO  toTest.logIn - Clicked on login option
+2023-02-26 13:26:07.897 [main] INFO  toTest.logIn - Email address entered successfully
+2023-02-26 13:26:07.979 [main] INFO  toTest.logIn - Password entered successfully
+2023-02-26 13:26:08.744 [main] INFO  toTest.logIn - Clicked on Login Button
+2023-02-26 13:26:08.827 [main] INFO  toTest.logIn - User logged in successfully
+2023-02-26 13:26:08.828 [main] INFO  toTest.logIn - Login Test got passed
+2023-02-26 13:26:08.842 [main] INFO  base.listener - 
+============== Test 'log' passed ==============
+
+2023-02-26 13:26:09.107 [main] ERROR base.listener - 
+============== Test 'log' failed ==============
+
+java.lang.NullPointerException: null
+	at base.listener.onTestSuccess(listener.java:48) ~[classes/:?]
+	at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:103) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestInvoker.runTestResultListener(TestInvoker.java:277) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:764) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128) ~[testng-7.7.1.jar:7.7.1]
+	at java.util.ArrayList.forEach(ArrayList.java:1541) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:829) [testng-7.7.1.jar:7.7.1]
+	at org.testng.TestRunner.run(TestRunner.java:602) [testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437) [testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431) [testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391) [testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330) [testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.7.1.jar:7.7.1]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256) [testng-7.7.1.jar:7.7.1]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176) [testng-7.7.1.jar:7.7.1]
+	at org.testng.TestNG.runSuites(TestNG.java:1099) [testng-7.7.1.jar:7.7.1]
+	at org.testng.TestNG.run(TestNG.java:1067) [testng-7.7.1.jar:7.7.1]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109) [testng-rt.jar:?]
+2023-02-26 13:26:10.265 [main] INFO  base.listener - 
+============== Test Suite 'logIn' finished ==============
+
+2023-02-26 13:29:09.644 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\HP\Desktop\FORME\New-Test\src\test\resources\testng.xml
+
+2023-02-26 13:29:12.537 [main] INFO  base.base - BeforeMethod Execution
+2023-02-26 13:29:12.537 [main] INFO  base.base - Browser launched
+2023-02-26 13:29:15.335 [main] INFO  base.base - Navigated to application URL
+2023-02-26 13:29:15.464 [main] INFO  base.base - Windows got maximized
+2023-02-26 13:29:15.464 [main] INFO  base.base - BeforeMethod Executed
+2023-02-26 13:29:15.482 [main] INFO  base.listener - 
+============== Test 'log' started ==============
+
+2023-02-26 13:29:15.581 [main] INFO  toTest.logIn - Clicked on My Account dropdown
+2023-02-26 13:29:16.040 [main] INFO  toTest.logIn - Clicked on login option
+2023-02-26 13:29:16.153 [main] INFO  toTest.logIn - Email address entered successfully
+2023-02-26 13:29:16.257 [main] INFO  toTest.logIn - Password entered successfully
+2023-02-26 13:29:17.036 [main] INFO  toTest.logIn - Clicked on Login Button
+2023-02-26 13:29:17.116 [main] INFO  toTest.logIn - User logged in successfully
+2023-02-26 13:29:17.116 [main] INFO  toTest.logIn - Login Test got passed
+2023-02-26 13:29:17.131 [main] INFO  base.listener - 
+============== Test 'log' passed ==============
+
+2023-02-26 13:29:18.180 [main] INFO  base.base - Browser quit
+2023-02-26 13:29:19.107 [main] INFO  base.listener - 
+============== Test Suite 'logIn' finished ==============
+
+2023-02-26 13:29:20.798 [main] INFO  base.base - BeforeMethod Execution
+2023-02-26 13:29:20.799 [main] INFO  base.base - Browser launched
+2023-02-26 13:29:23.413 [main] INFO  base.base - Navigated to application URL
+2023-02-26 13:29:23.537 [main] INFO  base.base - Windows got maximized
+2023-02-26 13:29:23.538 [main] INFO  base.base - BeforeMethod Executed
+2023-02-26 13:29:23.541 [main] INFO  base.listener - 
+============== Test 'letsTest' started ==============
+
+2023-02-26 13:29:23.622 [main] INFO  toTest.testToTry - Clicked on My Account dropdown
+2023-02-26 13:29:24.108 [main] INFO  toTest.testToTry - Clicked on login option
+2023-02-26 13:29:24.209 [main] INFO  toTest.testToTry - Email address entered successfully
+2023-02-26 13:29:24.328 [main] INFO  toTest.testToTry - Password entered successfully
+2023-02-26 13:29:24.791 [main] INFO  toTest.testToTry - Clicked on Login Button
+2023-02-26 13:29:24.820 [main] ERROR base.listener - 
+============== Test 'letsTest' failed ==============
+
+java.lang.AssertionError: expected [Account Login] but found [My Account]
+	at org.testng.Assert.fail(Assert.java:110) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.Assert.failNotEquals(Assert.java:1577) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.Assert.assertEquals(Assert.java:131) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.Assert.assertEquals(Assert.java:655) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.Assert.assertEquals(Assert.java:665) ~[testng-7.7.1.jar:7.7.1]
+	at toTest.testToTry.letsTest(testToTry.java:30) ~[test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128) ~[testng-7.7.1.jar:7.7.1]
+	at java.util.ArrayList.forEach(ArrayList.java:1541) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:829) [testng-7.7.1.jar:7.7.1]
+	at org.testng.TestRunner.run(TestRunner.java:602) [testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437) [testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431) [testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391) [testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330) [testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.7.1.jar:7.7.1]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256) [testng-7.7.1.jar:7.7.1]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176) [testng-7.7.1.jar:7.7.1]
+	at org.testng.TestNG.runSuites(TestNG.java:1099) [testng-7.7.1.jar:7.7.1]
+	at org.testng.TestNG.run(TestNG.java:1067) [testng-7.7.1.jar:7.7.1]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109) [testng-rt.jar:?]
+2023-02-26 13:29:25.781 [main] INFO  base.base - Browser quit
+2023-02-26 13:29:25.816 [main] INFO  base.listener - 
+============== Test Suite 'testToTry' finished ==============
+
+2023-02-26 14:19:18.111 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\HP\Desktop\FORME\New-Test\src\test\resources\testng.xml
+
+2023-02-26 14:19:22.133 [main] INFO  base.base - BeforeMethod Execution
+2023-02-26 14:19:22.133 [main] INFO  base.base - Browser launched
+2023-02-26 14:19:24.471 [main] INFO  base.base - Navigated to application URL
+2023-02-26 14:19:24.611 [main] INFO  base.base - Windows got maximized
+2023-02-26 14:19:24.614 [main] INFO  base.base - BeforeMethod Executed
+2023-02-26 14:19:24.663 [main] INFO  base.listener - 
+============== Test 'log' started ==============
+
+2023-02-26 14:19:24.783 [main] INFO  toTest.logIn - Clicked on My Account dropdown
+2023-02-26 14:19:25.187 [main] INFO  toTest.logIn - Clicked on login option
+2023-02-26 14:19:25.281 [main] INFO  toTest.logIn - Email address entered successfully
+2023-02-26 14:19:25.361 [main] INFO  toTest.logIn - Password entered successfully
+2023-02-26 14:19:26.052 [main] INFO  toTest.logIn - Clicked on Login Button
+2023-02-26 14:19:26.113 [main] INFO  toTest.logIn - User logged in successfully
+2023-02-26 14:19:26.113 [main] INFO  toTest.logIn - Login Test got passed
+2023-02-26 14:19:26.121 [main] INFO  base.listener - 
+============== Test 'log' passed ==============
+
+2023-02-26 14:19:27.094 [main] INFO  base.base - Browser quit
+2023-02-26 14:19:27.534 [main] INFO  base.listener - 
+============== Test Suite 'logIn' finished ==============
+
+2023-02-26 14:19:28.512 [main] INFO  base.base - BeforeMethod Execution
+2023-02-26 14:19:28.512 [main] INFO  base.base - Browser launched
+2023-02-26 14:19:30.653 [main] INFO  base.base - Navigated to application URL
+2023-02-26 14:19:30.801 [main] INFO  base.base - Windows got maximized
+2023-02-26 14:19:30.801 [main] INFO  base.base - BeforeMethod Executed
+2023-02-26 14:19:30.811 [main] INFO  base.listener - 
+============== Test 'letsTest' started ==============
+
+2023-02-26 14:19:30.900 [main] INFO  toTest.testToTry - Clicked on My Account dropdown
+2023-02-26 14:19:31.377 [main] INFO  toTest.testToTry - Clicked on login option
+2023-02-26 14:19:31.470 [main] INFO  toTest.testToTry - Email address entered successfully
+2023-02-26 14:19:31.562 [main] INFO  toTest.testToTry - Password entered successfully
+2023-02-26 14:19:32.013 [main] INFO  toTest.testToTry - Clicked on Login Button
+2023-02-26 14:19:32.060 [main] ERROR base.listener - 
+============== Test 'letsTest' failed ==============
+
+java.lang.AssertionError: expected [Account Login] but found [My Account]
+	at org.testng.Assert.fail(Assert.java:110) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.Assert.failNotEquals(Assert.java:1577) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.Assert.assertEquals(Assert.java:131) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.Assert.assertEquals(Assert.java:655) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.Assert.assertEquals(Assert.java:665) ~[testng-7.7.1.jar:7.7.1]
+	at toTest.testToTry.letsTest(testToTry.java:30) ~[test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128) ~[testng-7.7.1.jar:7.7.1]
+	at java.util.ArrayList.forEach(ArrayList.java:1541) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:829) [testng-7.7.1.jar:7.7.1]
+	at org.testng.TestRunner.run(TestRunner.java:602) [testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437) [testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431) [testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391) [testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330) [testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.7.1.jar:7.7.1]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256) [testng-7.7.1.jar:7.7.1]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176) [testng-7.7.1.jar:7.7.1]
+	at org.testng.TestNG.runSuites(TestNG.java:1099) [testng-7.7.1.jar:7.7.1]
+	at org.testng.TestNG.run(TestNG.java:1067) [testng-7.7.1.jar:7.7.1]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109) [testng-rt.jar:?]
+2023-02-26 14:19:33.020 [main] INFO  base.base - Browser quit
+2023-02-26 14:19:33.111 [main] INFO  base.listener - 
+============== Test Suite 'testToTry' finished ==============
+
+2023-02-26 15:02:22.204 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\HP\Desktop\FORME\New-Test\src\test\resources\testng2.xml
+
+2023-02-26 15:07:16.568 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\HP\Desktop\FORME\New-Test\src\test\resources\testng2.xml
+
+2023-02-26 15:08:35.971 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\HP\Desktop\FORME\New-Test\src\test\resources\testng2.xml
+
+2023-02-26 19:08:36.179 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\HP\Desktop\FORME\New-Test\src\test\resources\testng.xml
+
+2023-02-26 19:08:38.783 [main] INFO  base.base - BeforeMethod Execution
+2023-02-26 19:08:38.783 [main] INFO  base.base - Browser launched
+2023-02-26 19:08:41.628 [main] INFO  base.base - Navigated to application URL
+2023-02-26 19:08:41.763 [main] INFO  base.base - Windows got maximized
+2023-02-26 19:08:41.763 [main] INFO  base.base - BeforeMethod Executed
+2023-02-26 19:08:41.780 [main] INFO  base.listener - 
+============== Test 'log' started ==============
+
+2023-02-26 19:08:41.865 [main] INFO  toTest.logIn - Clicked on My Account dropdown
+2023-02-26 19:08:42.347 [main] INFO  toTest.logIn - Clicked on login option
+2023-02-26 19:08:42.437 [main] INFO  toTest.logIn - Email address entered successfully
+2023-02-26 19:08:42.511 [main] INFO  toTest.logIn - Password entered successfully
+2023-02-26 19:08:43.298 [main] INFO  toTest.logIn - Clicked on Login Button
+2023-02-26 19:08:43.349 [main] INFO  toTest.logIn - User logged in successfully
+2023-02-26 19:08:43.349 [main] INFO  toTest.logIn - Login Test got passed
+2023-02-26 19:08:43.359 [main] INFO  base.listener - 
+============== Test 'log' passed ==============
+
+2023-02-26 19:08:44.255 [main] INFO  base.base - Browser quit
+2023-02-26 19:08:44.670 [main] INFO  base.listener - 
+============== Test Suite 'logIn' finished ==============
+
+2023-02-26 19:08:45.656 [main] INFO  base.base - BeforeMethod Execution
+2023-02-26 19:08:45.657 [main] INFO  base.base - Browser launched
+2023-02-26 19:08:48.772 [main] INFO  base.base - Navigated to application URL
+2023-02-26 19:08:48.909 [main] INFO  base.base - Windows got maximized
+2023-02-26 19:08:48.909 [main] INFO  base.base - BeforeMethod Executed
+2023-02-26 19:08:48.913 [main] INFO  base.listener - 
+============== Test 'letsTest' started ==============
+
+2023-02-26 19:08:48.977 [main] INFO  toTest.testToTry - Clicked on My Account dropdown
+2023-02-26 19:08:49.446 [main] INFO  toTest.testToTry - Clicked on login option
+2023-02-26 19:08:49.532 [main] INFO  toTest.testToTry - Email address entered successfully
+2023-02-26 19:08:49.608 [main] INFO  toTest.testToTry - Password entered successfully
+2023-02-26 19:08:50.079 [main] INFO  toTest.testToTry - Clicked on Login Button
+2023-02-26 19:08:50.107 [main] ERROR base.listener - 
+============== Test 'letsTest' failed ==============
+
+java.lang.AssertionError: expected [Account Login] but found [My Account]
+	at org.testng.Assert.fail(Assert.java:110) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.Assert.failNotEquals(Assert.java:1577) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.Assert.assertEquals(Assert.java:131) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.Assert.assertEquals(Assert.java:655) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.Assert.assertEquals(Assert.java:665) ~[testng-7.7.1.jar:7.7.1]
+	at toTest.testToTry.letsTest(testToTry.java:30) ~[test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128) ~[testng-7.7.1.jar:7.7.1]
+	at java.util.ArrayList.forEach(ArrayList.java:1541) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:829) [testng-7.7.1.jar:7.7.1]
+	at org.testng.TestRunner.run(TestRunner.java:602) [testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437) [testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431) [testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391) [testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330) [testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.7.1.jar:7.7.1]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256) [testng-7.7.1.jar:7.7.1]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176) [testng-7.7.1.jar:7.7.1]
+	at org.testng.TestNG.runSuites(TestNG.java:1099) [testng-7.7.1.jar:7.7.1]
+	at org.testng.TestNG.run(TestNG.java:1067) [testng-7.7.1.jar:7.7.1]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109) [testng-rt.jar:?]
+2023-02-26 19:08:50.990 [main] INFO  base.base - Browser quit
+2023-02-26 19:08:51.025 [main] INFO  base.listener - 
+============== Test Suite 'testToTry' finished ==============
+
